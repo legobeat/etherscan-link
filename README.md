@@ -37,7 +37,10 @@ const accountTokenTrackerLinkForChain =
 // Create urls for interacting with custom networks
 const customNetworkUrl = "https://customnetwork.com/";
 
-const customTokenTrackerLink = etherscanLink.createCustomTokenTrackerLink(token, customNetworkUrl)
+const customTokenTrackerLink = etherscanLink.createCustomTokenTrackerLink(
+  token,
+  customNetworkUrl
+);
 
 const customAccountLink = etherscanLink.createCustomAccountLink(
   account,
